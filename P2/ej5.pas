@@ -26,17 +26,17 @@ var
                 end
         end
         else if respuesta ='gas' then
+            begin
+                if resdesc = 'Y' then
                 begin
-                    if resdesc = 'Y' then
-                    begin
-                        writeln ('son $', (gas)-(gas*descuento):0:2);
-                    end
+                    writeln ('son $', (gas)-(gas*descuento):0:2);
                 end
-                else if resdesc ='N' then
+            
+            else if resdesc ='N' then
                 begin
-                    writeln('son $', (gas):0:2);
+                writeln('son $', (gas):0:2);
                 end
-                    
+            end            
         // else
         // begin
         //     writeln('error');
