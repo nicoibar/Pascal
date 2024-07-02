@@ -11,6 +11,5 @@ begin
             suma:= suma + num;
             writeln('suma acutal ',suma);
             readln(num);
-            writeln(suma);
         end;
 end.

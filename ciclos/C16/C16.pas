@@ -20,7 +20,7 @@ x:=-10000000;
             if num=x then
             rep:=rep+1;
             x:=num;
-        until (i=11);
+        until (i>=10);
     prom:= acu/10;
     writeln('Promedio de los numeros es',prom:8:2);
     writeln('Los numeros pares son ',pares);
