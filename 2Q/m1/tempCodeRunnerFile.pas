@@ -1,0 +1,1 @@
+write('numero: ', matriz1[i,j],'');
